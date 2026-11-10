@@ -10,7 +10,7 @@
   height: 1080px;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  background: url("/assets/background.jpg") center / cover;
+  background: url("/src/assets/background.jpg") center / cover;
 }
 
 /* Header */
