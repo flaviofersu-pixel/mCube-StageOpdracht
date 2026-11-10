@@ -17,7 +17,7 @@ function getText(item, tagName) {
     return ELEMENT.textContent;
 }
 
-//get title, description and img of every news item
+//get title, description & img of every news item
 function readItems(xmlText) {
     const XML = new DOMParser().parseFromString(xmlText, "text/xml");
     const ITEMS = [];
