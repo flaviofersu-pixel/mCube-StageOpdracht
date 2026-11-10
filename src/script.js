@@ -132,13 +132,13 @@ function createNewsItem(item) {
     TITLE.className = "news-title";
     DESCRIPTION.className = "news-description";
 
-    IMG.src = item.image;
+    IMG.src = item.img;
     IMG.alt = "";
     TITLE.textContent = item.title;
     DESCRIPTION.textContent = item.description;
 
-    TEXT.appendChild(TITLE, DESCRIPTION);
-    NEWS_ITEM.appendChild(IMG, TEXT);
+    TEXT.append(TITLE, DESCRIPTION);
+    NEWS_ITEM.append(IMG, TEXT);
 
     return NEWS_ITEM;
 }
