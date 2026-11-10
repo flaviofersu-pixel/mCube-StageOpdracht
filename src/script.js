@@ -143,7 +143,7 @@ function createNewsItem(item) {
     return NEWS_ITEM;
 }
 
-//a new progrss bar starts the css animation from the beginning
+//a new progress bar starts the css animation from the beginning
 function resetProgressBar() {
     const PROGRESS_BAR = document.createElement("div");
 
@@ -180,7 +180,7 @@ function handleProgressEnd() {
     showPage();
 }
 
-async function startWiget() {
+async function startWidget() {
     await updateNews();
     showPage();
 
@@ -188,4 +188,4 @@ async function startWiget() {
     setInterval(updateNews, REFRESH_TIME);
 }
 
-startWiget();
+startWidget();

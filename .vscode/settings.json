@@ -1,6 +1,0 @@
-{
-  "js/ts.suggest.enabled": true,
-  "editor.quickSuggestions": {
-    "other": true
-  }
-}
